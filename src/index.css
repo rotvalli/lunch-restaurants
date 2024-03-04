@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Cadiz-SemiBold';
+    src: url('/src/assets/Cadiz-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Cadiz-Book';
+    src: url('/src/assets/Cadiz-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+:root {
+    --font-family-header: 'Cadiz-SemiBold', sans-serif;
+    --font-family-body: 'Cadiz-Book', sans-serif;
+}
+
+body {
+    font-family: var(--font-family-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-header);
+}

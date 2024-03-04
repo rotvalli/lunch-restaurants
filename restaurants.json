@@ -1,0 +1,184 @@
+{
+    "restaurants" : [
+        {
+            "name" : "Whatever",
+            "distanceFromOffice" : 5,
+            "types" : ["asian", "menu"],
+            "rating" : 5
+        },
+        {
+            "name" : "Tammela Hesburger",
+            "distanceFromOffice" : 5,
+            "types" : ["burger", "menu"], 
+            "rating" : 4
+        },
+        {
+            "name" : "Gopal",
+            "distanceFromOffice" : 5,
+            "types" : ["indian", "buffet"],
+            "rating" : 5
+        },
+        {
+            "name" : "YakNak",
+            "distanceFromOffice" : 3,
+            "types" : ["indian", "buffet"],
+            "rating" : 5
+        },
+        {
+            "name" : "Dumpling Studio",
+            "distanceFromOffice" : 10,
+            "types" : ["asian", "chinese", "menu"],
+            "rating" : 3
+        },
+        {
+            "name" : "Linkosuo MIN Asemakeskus",
+            "distanceFromOffice" : 3,
+            "types" : ["traditional", "buffet"],
+            "rating" : 4
+        },
+        {
+            "name" : "P*sta",
+            "distanceFromOffice" : 3,
+            "types" : ["pasta", "menu"],
+            "rating" : 3
+        },
+        {
+            "name" : "Marco Boulangerie",
+            "distanceFromOffice" : 12,
+            "types" : ["pasta", "menu"],
+            "rating" : 3
+        },
+        {
+            "name" : "Tisle",
+            "distanceFromOffice" : 12,
+            "types" : ["traditional", "menu"],
+            "rating" : 2
+        },
+        {
+            "name" : "Aitoleipä",
+            "distanceFromOffice" : 2,
+            "types" : ["traditional", "buffet"],
+            "rating" : 3
+        },
+        {
+            "name" : "Liemi",
+            "distanceFromOffice" : 15,
+            "types" : ["asian", "menu"],
+            "rating" : 5
+        },
+        {
+            "name" : "LAM",
+            "distanceFromOffice" : 15,
+            "types" : ["asian", "chinese", "buffet"],
+            "rating" : 2
+        },
+        {
+            "name" : "Social Burger Joint",
+            "distanceFromOffice" : 15,
+            "types" : ["burger", "menu"],
+            "rating" : 5
+        },
+        {
+            "name" : "Osho sushi",
+            "distanceFromOffice" : 5,
+            "types" : ["sushi", "chinese", "asian"],
+            "rating" : 3
+        },
+        {
+            "name" : "Nanda Devi",
+            "distanceFromOffice" : 20,
+            "types" : ["indian", "buffet"],
+            "rating" : 5
+        },
+        {
+            "name" : "Itsuyaki Teppanyaki",
+            "distanceFromOffice" : 10,
+            "types" : ["asian", "chinese", "sushi", "teppanyaki", "buffet"],
+            "rating" : 4
+        },
+        {
+            "name" : "Toki Nuki",
+            "distanceFromOffice" : 3,
+            "types" : ["asian", "chinese", "ramen", "menu"],
+            "rating" : 3
+        },
+        {
+            "name" : "Ohana",
+            "distanceFromOffice" : 20,
+            "types" : ["burger", "menu"],
+            "rating" : 5
+        },
+        {
+            "name" : "Baba's Kitchen",
+            "distanceFromOffice" : 9,
+            "types" : ["middle eastern", "menu"],
+            "rating" : 4
+        },
+        {
+            "name" : "Vanha Ike",
+            "distanceFromOffice" : 3,
+            "types" : ["traditional", "menu"],
+            "rating" : 5
+        },
+        {
+            "name" : "Edun Herkkukeidas",
+            "distanceFromOffice" : 7,
+            "types" : ["traditional", "buffet"],
+            "rating" : 3
+        },
+        {
+            "name" : "Ainoya Sushi",
+            "distanceFromOffice" : 12,
+            "types" : ["asian", "chinese", "sushi", "buffet"],
+            "rating" : 4
+        },
+        {
+            "name" : "Malabadi",
+            "distanceFromOffice" : 6,
+            "types" : ["middle eastern", "buffet"],
+            "rating" : 3
+        },
+        {
+            "name" : "Borneo",
+            "distanceFromOffice" : 9,
+            "types" : ["asian", "buffet"],
+            "rating" : 3
+        },
+        {
+            "name" : "Pancho Villa",
+            "distanceFromOffice" : 11,
+            "types" : ["burger", "mexican", "menu"],
+            "rating" : 3
+        },
+        {
+            "name" : "Pulo",
+            "distanceFromOffice" : 4,
+            "types" : ["asian", "menu"],
+            "rating" : 3
+        },
+        {
+            "name" : "Biang",
+            "distanceFromOffice" : 10,
+            "types" : ["asian", "chinese", "buffet"],
+            "rating" : 5
+        },
+        {
+            "name" : "Onni & Leo",
+            "distanceFromOffice" : 8,
+            "types" : ["middle eastern", "buffet"],
+            "rating" : 4
+        },
+        {
+            "name" : "Momo Toko",
+            "distanceFromOffice" : 15,
+            "types" : ["asian", "ramen",  "menu"],
+            "rating" : 5
+        },
+        {
+            "name" : "Osaka Teppanyaki",
+            "distanceFromOffice" : 15,
+            "types" : ["asian", "chinese", "sushi", "teppanyaki", "buffet"],
+            "rating" : 3
+        }
+    ]
+}

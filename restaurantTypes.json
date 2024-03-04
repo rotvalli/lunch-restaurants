@@ -1,0 +1,43 @@
+[
+    {
+        "value": "asian",
+        "label": "Asian"
+    },
+    {
+        "value": "burger",
+        "label": "Burger"
+    },
+    {
+        "value": "chinese",
+        "label": "Chinese"
+    },
+    {
+        "value": "indian",
+        "label": "Indian"
+    },
+    {
+        "value": "middle eastern",
+        "label": "Middle eastern"
+    },
+    {
+        "value": "pasta",
+        "label": "Pasta"
+    },
+    {
+        "value": "ramen",
+        "label": "Ramen"
+    },
+    {
+        "value": "sushi",
+        "label": "Sushi"
+    },
+    {
+        "value": "teppanyaki",
+        "label": "Teppanyaki"
+    },
+    {
+        "value": "traditional",
+        "label": "Traditional"
+    }
+  ]
+  
