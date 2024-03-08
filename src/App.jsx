@@ -2,23 +2,15 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Card } from "./components/Card";
 import restaurantTypes from "../restaurantTypes.json";
+import restaurantJson from '../restaurants.json'
 
 const App = () => {
-  const [restaurants, setRestaurants] = useState([]);
+  const [restaurants, setRestaurants] = useState(restaurantJson.restaurants);
   const [type, setType] = useState("");
-
-  const hook = () => {
-    axios.get("http://localhost:3001/restaurants")
-    .then(response => {
-      setRestaurants(response.data);
-    })
-  }
-
-  useEffect(hook);
 
   return (
     <div className="container mx-auto mb-4 pb-4">
-      <div className="text-center bg-secondary-orange-mid p-4 mb-4">
+      <div className="text-center  bg-secondary-orange-mid p-4 mb-4">
         <h1 className="text-2xl mb-4">Restaurants near office</h1>
         <div>
           <form>

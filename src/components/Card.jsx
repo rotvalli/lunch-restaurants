@@ -12,14 +12,14 @@ export const Card = ({ restaurant }) => {
   const handleCopyToClipboard = () => {
     copyToClipboard(lunchTrainSnippet);
     editButtonText("Command copied to clipboard!");
-    editButtonStyling("bg-secondary-pink-mid hover:bg-secondary-pink-mid");
+    editButtonStyling("bg-secondary-pink-mid");
   };
 
     return (
         <div className="flex-initial w-80 grow lg:grow-0 p4 m4 max-w-sm rounded-xl overflow-hidden shadow-lg">
         <div className="px-6 py-4">
           <h3 className="font-bold text-l mb-2"> 
-            {restaurant.name}
+            <a className="hover:text-secondary-pink-dark" href={restaurant.link}>{restaurant.name}</a>
           </h3>
           <Rating restaurant={restaurant}/>
           <p>Distance: {restaurant.distanceFromOffice} min</p>
