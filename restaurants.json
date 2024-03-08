@@ -15,6 +15,13 @@
             "rating" : 4
         },
         {
+            "name" : "McDonalds",
+            "link": "https://www.mcdonalds.com/fi/fi-fi/menu/hampurilaiset.html",
+            "distanceFromOffice" : 10,
+            "types" : ["burger", "menu"], 
+            "rating" : 3
+        },
+        {
             "name" : "Gopal",
             "link": "https://www.gopal.fi/lounas/",
             "distanceFromOffice" : 5,
