@@ -5,12 +5,14 @@ import restaurantJson from '../restaurants.json'
 
 const App = () => {
   const [restaurants, setRestaurants] = useState(restaurantJson.restaurants);
+  const [filteredRestaurants, setFilteredRestaurants] = useState(restaurantJson.restaurants);
   const [type, setType] = useState("");
   const [sorting, setSorting] = useState("distance");
   const [selectedSortOption, setSelectedSortOption] = useState("distance");
 
 
   const filterRestaurants = () => {
+    console.log(type);
     return restaurants.filter(restaurant => (type === "" || restaurant.types.includes(type)));
   }
 
@@ -25,7 +27,7 @@ const App = () => {
   useEffect(() => {
     setSelectedSortOption(sorting);
 
-    setRestaurants((prevRestaurants) => sortRestaurants(filterRestaurants()));
+    setFilteredRestaurants(sortRestaurants(filterRestaurants()));
   }, [type, sorting]);
 
   const filteredAndSortedRestaurants = sortRestaurants(filterRestaurants());
@@ -58,7 +60,7 @@ const App = () => {
         </div>
       </div>
       <div className="flex flex-wrap justify-center">
-        {restaurants.map(filteredRestaurant => (
+        {filteredRestaurants.map(filteredRestaurant => (
             <Card key={filteredRestaurant.id} restaurant={filteredRestaurant} />
           ))}
       </div>
