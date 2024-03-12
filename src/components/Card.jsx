@@ -16,7 +16,7 @@ export const Card = ({ restaurant }) => {
   };
 
     return (
-        <div className="flex-initial w-80 grow lg:grow-0 p4 m4 max-w-sm rounded-xl overflow-hidden shadow-lg">
+        <div className="flex-initial w-80 grow lg:grow-0 p-4 m-4 max-w-sm rounded-xl overflow-hidden shadow-lg">
         <div className="px-6 py-4">
           <h3 className="font-bold text-l mb-2"> 
             <a className="hover:text-secondary-pink-dark" href={restaurant.link}>{restaurant.name}</a>
