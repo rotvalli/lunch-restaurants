@@ -3,9 +3,9 @@ import { useState } from "react";
 import { useCopyToClipboard } from "@uidotdev/usehooks";
 import { Rating } from "./Rating";
 
-export const Card = ({ restaurant }) => {
+export const Card = ({ restaurant, onClickSetType }) => {
   const [copiedText, copyToClipboard] = useCopyToClipboard();
-  const [buttonText, editButtonText] = useState("Copy Lunchtrain command");
+  const [buttonText, editButtonText] = useState("Copy");
   const [buttonStyling, editButtonStyling] = useState("bg-secondary-pink-dark hover:bg-secondary-pink-mid");
   var lunchTrainSnippet = `/Lunchtrain ${restaurant.name} 11:00`; 
 
@@ -25,9 +25,9 @@ export const Card = ({ restaurant }) => {
           <p>Distance: {restaurant.distanceFromOffice} min</p>
           <div className="pt-4 pb-0">
             {restaurant.types && restaurant.types.map((type, typeIndex) => (
-              <span key={typeIndex} className="inline-block bg-secondary-pink-light rounded-full px-3 py-1 my-1 text-sm mr-2">
+              <button onClick={() => onClickSetType(type)} key={typeIndex} className="inline-block bg-secondary-pink-light rounded-full px-3 py-1 my-1 text-sm mr-2">
                 {type}
-              </span>
+              </button>
             ))}
           </div>
           <div className="pt-2 pb-2">
