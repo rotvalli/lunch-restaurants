@@ -1,6 +1,13 @@
 {
     "restaurants" : [
         {
+            "name" : "Semafori",
+            "link": "https://www.ravintolasemafori.fi/",
+            "distanceFromOffice" : 3,
+            "types" : ["mixed"],
+            "rating" : 5
+        },
+        {
             "name" : "Whatever",
             "link": "https://www.restaurant-whatever.fi/",
             "distanceFromOffice" : 5,
