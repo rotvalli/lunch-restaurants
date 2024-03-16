@@ -1,11 +1,18 @@
 {
     "restaurants" : [
         {
+            "name" : "Antika",
+            "link": "https://www.antika.fi/",
+            "distanceFromOffice" : 3,
+            "types" : ["mediterrian"],
+            "rating" : 2
+        },
+        {
             "name" : "Semafori",
             "link": "https://www.ravintolasemafori.fi/",
             "distanceFromOffice" : 3,
             "types" : ["mixed"],
-            "rating" : 5
+            "rating" : 2
         },
         {
             "name" : "Whatever",
