@@ -4,7 +4,7 @@
             "name" : "Antika",
             "link": "https://www.antika.fi/",
             "distanceFromOffice" : 3,
-            "types" : ["mediterrian"],
+            "types" : ["mediterranean"],
             "rating" : 2
         },
         {
@@ -151,7 +151,7 @@
             "name" : "Baba's Kitchen",
             "link": "https://babas.fi/#eluid301682de",
             "distanceFromOffice" : 9,
-            "types" : ["middle eastern"],
+            "types" : ["mediterranean"],
             "rating" : 4
         },
         {
@@ -179,7 +179,7 @@
             "name" : "Malabadi",
             "link": "https://www.malabadi.fi/tammela/",
             "distanceFromOffice" : 6,
-            "types" : ["middle eastern"],
+            "types" : ["mediterranean"],
             "rating" : 3
         },
         {
@@ -214,7 +214,7 @@
             "name" : "Onni & Leo",
             "link": "https://www.onnileo.fi/rautatienkatu.php#lunch",
             "distanceFromOffice" : 8,
-            "types" : ["middle eastern"],
+            "types" : ["mediterranean"],
             "rating" : 4
         },
         {
