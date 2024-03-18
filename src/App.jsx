@@ -37,8 +37,8 @@ const App = () => {
   const filteredAndSortedRestaurants = sortRestaurants(filterRestaurants());
 
   return (
-    <div className="container mx-auto mb-4 pb-4">
-      <div className="text-center bg-secondary-orange-mid p-4 mb-4">
+    <div className="container mx-auto mb-4 pb-4 dark:bg-slate-700">
+      <div className="text-center bg-secondary-orange-mid dark:bg-sky-950 p-4 mb-4">
         <DarkThemeToggler />
         <h1 className="text-2xl mb-4">Restaurants near office</h1>
         <div className="m-4">

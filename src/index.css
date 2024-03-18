@@ -29,41 +29,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-header);
 }
 
-body.dark {
-  background-color: #011a21;
-  color: gray;
+body.dark .btn-toggle-dark{
+  color:orange;
 }
-
+body.dark .shadow-lg{
+  --tw-shadow: 0 10px 15px -3px #062334, 0 4px 6px -4px #062334;
+}
+body.dark select{
+  background-color: #153249;
+}
 .btn-toggle-dark {
   float: right;
   position: relative;
   color: #111010;
 }
-
-body.dark .btn-toggle-dark{
-  color:orange;
-}
-body.dark .bg-secondary-orange-mid{
-  background-color:#062334;
-}
-
-body.dark .shadow-lg{
-  --tw-shadow: 0 10px 15px -3px #062334, 0 4px 6px -4px #062334;
-}
-
-body.dark .bg-secondary-pink-light{
-  background-color: #0e2031;
-}
-
-body.dark select{
-  background-color: #153249;
-}
-body.dark .bg-secondary-pink-dark{
-  background-color: #194276;
-}
-
-body.dark .bg-secondary-pink-mid{
-  background-color: #0e2a4f;
-}
-
-

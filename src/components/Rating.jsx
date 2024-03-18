@@ -5,7 +5,7 @@ const Star = ({ rating }) => {
     return (
         <div className="flex pt-2 pb-4">
             {array.map((rating, ratingIndex) => (
-                <img key={ratingIndex} className="size-4" src="https://www.svgrepo.com/show/525539/star.svg"/>
+                <img key={ratingIndex} className="size-3" src="https://www.svgrepo.com/show/525539/star.svg"/>
             ))}
         </div>
     )
