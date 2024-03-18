@@ -28,3 +28,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-header);
 }
+
+body.dark .btn-toggle-dark{
+  color:orange;
+}
+body.dark .shadow-lg{
+  --tw-shadow: 0 10px 15px -3px #062334, 0 4px 6px -4px #062334;
+}
+body.dark select{
+  background-color: #153249;
+}
+.btn-toggle-dark {
+  float: right;
+  position: relative;
+  color: #111010;
+}

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Card } from "./components/Card";
 import restaurantTypes from "../restaurantTypes.json";
 import restaurantJson from '../restaurants.json'
+import { DarkThemeToggler } from "./components/DarkThemeToggler";
 
 const App = () => {
   const [restaurants, setRestaurants] = useState(restaurantJson.restaurants);
@@ -36,19 +37,20 @@ const App = () => {
   const filteredAndSortedRestaurants = sortRestaurants(filterRestaurants());
 
   return (
-    <div className="container mx-auto mb-4 pb-4">
-      <div className="text-center  bg-secondary-orange-mid p-4 mb-4">
-      <h1 className="text-2xl mb-4">Restaurants near office</h1>
+    <div className="container mx-auto mb-4 pb-4 dark:bg-slate-700">
+      <div className="text-center bg-secondary-orange-mid dark:bg-sky-950 p-4 mb-4">
+        <DarkThemeToggler />
+        <h1 className="text-2xl mb-4">Restaurants near office</h1>
         <div className="m-4">
           <p className="p-2">Browse restaurants nearby Tampere Gofore office!</p>
           <p className="p-2">Use the copy button to copy a Lunchtrain command, ready to be pasted in Slack channels where /lunchtrain is in use.</p>
           <p className="p-2">Restaurant ratings are based on anonymous feedback, will be done in a more sophisticated manner once a back-end is implemented.</p>
         </div>
-        <div className="flex flex-wrap justify-center items-center"> 
+        <div className="flex flex-wrap justify-center items-center">
           <div className="flex items-center p-4">
             <p className="p-2">Filter by restaurant type:</p>
             <form>
-              <select className="p-2 mb-2 rounded-xl"value={type} onChange={(e) => setType(e.target.value)}>
+              <select className="p-2 mb-2 rounded-xl" value={type} onChange={(e) => setType(e.target.value)}>
                 <option value="">All Types</option>
                 {restaurantTypes.map((type, index) => (
                   <option value={type.value} key={index}>{type.label}</option>
@@ -69,8 +71,8 @@ const App = () => {
       </div>
       <div className="flex flex-wrap justify-center">
         {filteredRestaurants.map(filteredRestaurant => (
-            <Card key={filteredRestaurant.id} restaurant={filteredRestaurant} onClickSetType={onClickSetType} />
-          ))}
+          <Card key={filteredRestaurant.id} restaurant={filteredRestaurant} onClickSetType={onClickSetType} />
+        ))}
       </div>
     </div>
   )

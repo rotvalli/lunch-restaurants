@@ -16,8 +16,16 @@
         "label": "Indian"
     },
     {
+        "value": "mediterranean",
+        "label": "Mediterranean"
+    },    
+    {
         "value": "middle eastern",
         "label": "Middle eastern"
+    },
+    {
+        "value": "mixed",
+        "label": "Mixed"
     },
     {
         "value": "pasta",
