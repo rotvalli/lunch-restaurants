@@ -230,6 +230,14 @@
             "distanceFromOffice" : 15,
             "types" : ["asian", "chinese", "sushi", "teppanyaki"],
             "rating" : 3
+        },
+        {
+            "name" : "Pikkukiinalainen",
+            "link": "https://pikkukiinalainen.fi/",
+            "distanceFromOffice" : 10,
+            "types" : ["asian", "pork", "blood", "Joonaksen synttärimenu"],
+            "rating" : -1000
         }
+
     ]
 }
